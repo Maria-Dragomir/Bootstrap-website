@@ -4,58 +4,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DOGuidance | Page Name</title>
+    <title>DOGuidance | Home</title>
+
+    <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 
-<body>
+<body class="bg-light">
 
-    <!-- Header Section -->
-    <header>
-        <div class="brand">
-            <a href="index.htm" class="logo">DOGuidance</a>
-            <p>your dog guiding light</p>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark custom-nav">
+
+        <a class="navbar-brand" href="index.htm">
+            DOGuidance
+        </a>
+
+        <span class="navbar-text text-white">
+            your dog guiding light
+        </span>
+
+        <div class="ml-auto">
+            <a href="contact.htm" class="btn btn-outline-info">
+                ☰ Contact
+            </a>
         </div>
 
-        <nav>
-            <a href="contact.htm">☰ Contact</a>
-        </nav>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="container text-center my-5">
+
+        <h1>Welcome, Dog Guiding Light</h1>
+
+        <p class="lead">
+            Choose your DOGuidance path and take the first step towards clarity,
+            connection and transformation.
+        </p>
+
     </header>
 
+    <!-- Cards Section -->
+    <main class="container">
 
-    <!-- Main Page Content -->
-    <main>
-        <section class="hero">
-            <h1>Welcome, Dog Guiding Light</h1>
-            <p>Choose your DOGuidance path and take the first step towards clarity, connection and transformation.</p>
-        </section>
+        <div class="row">
 
-        <section class="cards">
-            <a href="conscious-leader.htm" class="card">
-                <h2>Conscious Leader</h2>
-                <p>For dog owners seeking structured behavioural transformation.</p>
-            </a>
+            <!-- Conscious Leader -->
+            <section class="col-md-4 mb-4">
 
-            <a href="canine-specialist.htm" class="card">
-                <h2>Canine Specialist</h2>
-                <p>For aspiring canine professionals seeking education and mentorship.</p>
-            </a>
+                <div class="card h-40 custom-card">
 
-            <a href="nd-mind.htm" class="card">
-                <h2>ND Minds</h2>
-                <p>For neurodivergent minds seeking calm, clarity and dog-assisted support.</p>
-            </a>
-        </section>
+                    <div class="card-body text-center">
+
+                        <h2 class="card-title">
+                            Conscious Leader
+                        </h2>
+
+                        <p class="card-text">
+                            For dog owners seeking structured behavioural transformation.
+                        </p>
+
+                        <a href="conscious-leader.htm" class="btn btn-primary">
+                            Learn More
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- Canine Specialist -->
+            <section class="col-md-4 mb-4">
+
+                <div class="card h-40 custom-card">
+
+                    <div class="card-body text-center">
+
+                        <h2 class="card-title">
+                            Canine Specialist
+                        </h2>
+
+                        <p class="card-text">
+                            For aspiring canine professionals seeking education and mentorship.
+                        </p>
+
+                        <a href="canine-specialist.htm" class="btn btn-primary">
+                            Learn More
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- ND Minds -->
+            <section class="col-md-4 mb-4">
+
+                <div class="card h-40 custom-card">
+
+                    <div class="card-body text-center">
+
+                        <h2 class="card-title">
+                            ND Minds
+                        </h2>
+
+                        <p class="card-text">
+                            For neurodivergent minds seeking calm, clarity and dog-assisted support.
+                        </p>
+
+                        <a href="nd-mind.htm" class="btn btn-primary">
+                            Learn More
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
+
     </main>
 
-    <!-- Footer Section -->
-    <footer>
-        <p>&copy; 2026 DOGuidance. All rights reserved.</p>
+    <!-- Footer -->
+    <footer class="custom-footer text-white text-center align-bottom mt-5">
+
+        <p>
+            &copy; 2026 DOGuidance. All rights reserved.
+        </p>
+
     </footer>
 
-    <!-- Bootstrap -->
+    <!-- Bootstrap JS -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
