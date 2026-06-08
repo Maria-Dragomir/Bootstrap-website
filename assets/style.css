@@ -29,7 +29,7 @@ h2 {
 }
 
 .custom-card {
-    background-color: var(--grey);
+    background-color: var(--lightgrey);
     border: 2px solid var(--teal);
     border-radius: 12px;
 }
@@ -39,15 +39,7 @@ h2 {
 }
 
 .custom-card .card-text {
-    color: var(--white);
-}
-
-.custom-card:hover {
-    background-color: var(--white);
-}
-
-.custom-card:hover .card-title {
-    color: var(--dark-teal);
+    color: var(--grey);
 }
 
 .custom-card:hover .card-text {
